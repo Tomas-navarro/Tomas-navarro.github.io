@@ -1,18 +1,108 @@
-body {
-  padding-top: 73px; /* Ajusta este valor a la altura de tu navbar */
-}
- .img-fluid {
-    max-width: 70%;
-    height: auto;
- }
+:root {
+  /* COLORES */
+  --whiteColor: #ffffff;
+  --whiteColor-70: #ffffffb3;
 
- .color-negro{
-   background-color: #0D0D0D;
- }
-.color-gris-oscuro{
+  /* TAMAÑO DE TEXTO */
+  --navLink__textSize: clamp(14px, 4vw, 22px);
+  --principalTitleSize: clamp(1.8rem, 6vw, 3rem);
+  --principalParagraphSize: clamp(1rem, 3vw, 1.3rem);
+
+  --SectionTitleSize: clamp(1.9rem, 6vw, 2.3rem);
+  --ExperienciaTitleSize: clamp(1.3rem, 5vw, 1.9rem);
+  --ExperienceParagraphSixe: clamp(1rem, 4vw, 1.3rem);
+}
+body {
+  padding-top: 73px;
+  /* Ajusta este valor a la altura de tu navbar */
+}
+
+.img-fluid {
+  max-width: 70%;
+  height: auto;
+}
+
+.color-negro {
+  background-color: #0D0D0D;
+}
+
+.color-gris-oscuro {
   background-color: #505A64;
 }
-.color-gris-claro{
-  background-color: #8797A8;
+
+.color-gris-oscuro2 {
+  background-color: #212729;
 }
 
+/* EXPERIENCE SECTION */
+
+.experienceSection {
+  margin: 50px auto;
+}
+
+.experienceSection h2 {
+  color: var(--whiteColor);
+  font-size: var(--SectionTitleSize);
+  margin-bottom: 30px;
+}
+
+.experienceSection h2 svg {
+  width: 20px;
+  height: 20px;
+}
+
+
+/* ul */
+.experienceList {
+  border-inline-start: 1px solid white;
+  position: relative;
+}
+
+.experienceItemList {
+  padding-left: 20px;
+  padding-bottom: 40px;
+}
+
+.experienceItemList time {
+  color: rgba(213, 213, 213, 0.639);
+}
+
+.experienceItemList h3 {
+  color: rgb(82, 152, 196);
+  font-size: var(--ExperienciaTitleSize);
+  text-wrap: pretty;
+}
+
+.experienceItemList p {
+  color: white;
+  margin: 0 0 30px 0;
+  font-size: var(--ExperienceParagraphSixe);
+}
+
+.experienceItemList a {
+  background-color: var(--whiteColor);
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-weight: 700;
+  color: black;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.experienceItemList a:hover {
+  color: rgb(82, 152, 196);
+}
+
+
+.decorativeCircleList {
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  left: -5px;
+  margin-top: 7px;
+}
