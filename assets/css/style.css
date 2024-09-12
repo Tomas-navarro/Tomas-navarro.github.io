@@ -1,0 +1,18 @@
+body {
+  padding-top: 73px; /* Ajusta este valor a la altura de tu navbar */
+}
+ .img-fluid {
+    max-width: 70%;
+    height: auto;
+ }
+
+ .color-negro{
+   background-color: #0D0D0D;
+ }
+.color-gris-oscuro{
+  background-color: #505A64;
+}
+.color-gris-claro{
+  background-color: #8797A8;
+}
+
