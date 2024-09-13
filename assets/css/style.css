@@ -12,14 +12,21 @@
   --ExperienciaTitleSize: clamp(1.3rem, 5vw, 1.9rem);
   --ExperienceParagraphSixe: clamp(1rem, 4vw, 1.3rem);
 }
+
 body {
   padding-top: 73px;
   /* Ajusta este valor a la altura de tu navbar */
 }
 
-.img-fluid {
-  max-width: 70%;
-  height: auto;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+.imagen-trabajos {
+  width: 100%;
+  height: 350px;
+  object-fit: contain;
 }
 
 .color-negro {
